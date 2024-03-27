@@ -6,7 +6,7 @@
 Необходимо продемонстрировать вызов данной функции, с выводом результата, 
 который получаем от функции, в консоль.
 */
-// function cube(num) {
-//     return num ** 3
-// }
-// console.log(cube(3));
+function cube(num) {
+    return num ** 3
+}
+console.log(cube(3));

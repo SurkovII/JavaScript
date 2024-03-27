@@ -10,14 +10,14 @@
 */
 
 
-// const num = +prompt('Ведите число');
+const num = +prompt('Ведите число');
 
-// if (Number.isInteger(num)) {
-//     salaryGet(num);
-// } else {
-//     console.log("Значение задано неверно");
-// }
+if (Number.isInteger(num)) {
+    salaryGet(num);
+} else {
+    console.log("Значение задано неверно");
+}
 
-// function salaryGet(num) {
-//     console.log(`"Размер заработной платы за вычетом налогов равен ${num*0.87}."`);
-// }
+function salaryGet(num) {
+    console.log(`"Размер заработной платы за вычетом налогов равен ${num*0.87}."`);
+}

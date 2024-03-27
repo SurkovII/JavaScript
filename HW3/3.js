@@ -9,12 +9,12 @@
 Примечание: Условимся, что пользователь всегда вводит корректные значения, 
 три числа. Проверять их не нужно.
 */
-// const num1 = +prompt('Введите первое число');
-// const num2 = +prompt('Введите второе число');
-// const num3 = +prompt('Введите третье число');
+const num1 = +prompt('Введите первое число');
+const num2 = +prompt('Введите второе число');
+const num3 = +prompt('Введите третье число');
 
-// function maxNum(num1, num2, num3) {
-//     const max = Math.max(num1, num2, num3);
-//     console.log(`Максимальное значение среди чисел ${num1}, ${num2}, ${num3} равно ${max}.`);
-// }
-// maxNum(num1, num2, num3);
+function maxNum(num1, num2, num3) {
+    const max = Math.max(num1, num2, num3);
+    console.log(`Максимальное значение среди чисел ${num1}, ${num2}, ${num3} равно ${max}.`);
+}
+maxNum(num1, num2, num3);
